@@ -1,5 +1,8 @@
+const { Kumbh_Sans } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,8 +10,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#121721",
+      fontFamily: {
+        Kumbh_Sans: ["var(--font-kumbh-sans)"],
       },
     },
   },

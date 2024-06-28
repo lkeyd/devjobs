@@ -28,7 +28,7 @@ export default function SearchBar() {
 
   return (
     <div className="flex justify-between items-center w-full h-20 bg-[#1a202e] rounded-xl">
-      <div className="flex gap-4 w-full lg:w-auto border-0 lg:border-r-2 border-gray-500 border-opacity-30 h-full px-4">
+      <div className="flex gap-4 w-full lg:w-full border-0 lg:border-r-2 border-gray-500 border-opacity-30 h-full px-4">
         <Image src="/search.svg" width={24} height={24} className="hidden lg:flex"></Image>
         <div className="flex items-center w-full">
           <input
@@ -40,9 +40,9 @@ export default function SearchBar() {
           ></input>
         </div>
       </div>
-      <div className="hidden lg:flex gap-4 w-auto border-r-2 border-gray-500 border-opacity-30 h-full px-4">
+      <div className="hidden lg:flex gap-4 w-full border-r-2 border-gray-500 border-opacity-30 h-full px-4">
         <Image src="/location.svg" width={24} height={24}></Image>
-        <div className="flex items-center">
+        <div className="flex items-center w-full">
           <input
             type="text"
             onChange={(event) => handleInput(event, setLocation)}
@@ -52,7 +52,7 @@ export default function SearchBar() {
           ></input>
         </div>
       </div>
-      <div className="hidden lg:flex items-center justify-end px-4 w-52">
+      <div className="hidden lg:flex items-center px-4 w-[630px]">
         <div className="flex justify-center items-center gap-4 cursor-pointer">
           <label className="flex items-center cursor-pointer">
             <input

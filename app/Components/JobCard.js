@@ -3,7 +3,6 @@ import Image from "next/image";
 
 export default function JobCard(props) {
   const job = props.job;
-  console.log(job);
 
   const getImage = (logoNumber) => {
     const base = "/logo";
@@ -11,12 +10,13 @@ export default function JobCard(props) {
     return `${base}${logoNumber}${extension}`;
   };
 
-  const getFullTime = () => {
-    return;
+  const formatDate = (dateString) => {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date(dateString).toLocaleDateString('en-US', options);
   };
 
   return (
-    <a href ="#" className="flex flex-col gap-2 bg-[#1a202e] rounded-xl pl-8 mb-8 w-full">
+    <a href ="#" className="flex flex-col gap-2 bg-[#1a202e] rounded-xl pl-8 mb-8 w-full shadow-md">
       <div className="relative w-14 h-14">
         <Image
           src={getImage(job.companyLogo)}
@@ -26,7 +26,7 @@ export default function JobCard(props) {
       </div>
       <div className="flex flex-col gap-4 -mt-4">
         <div className="flex items-center gap-4 ">
-          <p className="text-gray-500">{job.date}</p>
+          <p className="text-gray-500">{formatDate(job.date)}</p>
           <span className="w-1 h-1 rounded-full bg-gray-500"></span>
           <p className="text-gray-500">
             {job.fullTime ? `Full Time` : `Part Time`}

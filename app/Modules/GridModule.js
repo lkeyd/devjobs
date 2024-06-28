@@ -36,7 +36,6 @@ export default function GridModule() {
           })}
         </div>
       </div>
-      <div className="w-96 h-96 bg-white"></div>
     </div>
   );
 }

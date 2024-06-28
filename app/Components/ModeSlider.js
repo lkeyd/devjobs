@@ -1,14 +1,23 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { useState } from "react";
 
 export default function ModeSlider() {
-  const [mode, setMode] = useState("dark");
+  const [mounted, setMounted] = useState(false);
+  const [mode, setMode] = useState('dark')
+
+
+  
 
   const handleModeClick = () => {
-    setMode((prevMode) => prevMode === "dark" ? "light" : "dark");
+    setMode(mode === 'light' ? 'dark' : 'light')
   };
+
+  useEffect(() => setMounted(true), []);
+
+  if(!mounted) return null;
+
 
   return (
     <div className="flex justify-between items-center gap-x-2">
