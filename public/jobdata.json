@@ -1,0 +1,171 @@
+[
+    {
+      "hiringCompany": "Tech Solutions Inc.",
+      "date": "2024-06-28",
+      "fullTime": true,
+      "jobTitle": "Frontend Developer",
+      "country": "United States",
+      "companyLogo": 1
+    },
+    {
+      "hiringCompany": "Code Wizards Ltd.",
+      "date": "2024-06-27",
+      "fullTime": false,
+      "jobTitle": "Full Stack Developer",
+      "country": "Canada",
+      "companyLogo": 2
+    },
+    {
+      "hiringCompany": "Future Tech Innovations",
+      "date": "2024-06-26",
+      "fullTime": true,
+      "jobTitle": "Backend Developer",
+      "country": "United Kingdom",
+      "companyLogo": 3
+    },
+    {
+      "hiringCompany": "Innovate IT Solutions",
+      "date": "2024-06-25",
+      "fullTime": true,
+      "jobTitle": "UI/UX Designer",
+      "country": "Australia",
+      "companyLogo": 4
+    },
+    {
+      "hiringCompany": "Digital Dynamics",
+      "date": "2024-06-24",
+      "fullTime": false,
+      "jobTitle": "Software Engineer",
+      "country": "Germany",
+      "companyLogo": 5
+    },
+    {
+      "hiringCompany": "Global Innovations Ltd.",
+      "date": "2024-06-23",
+      "fullTime": true,
+      "jobTitle": "Mobile App Developer",
+      "country": "Brazil",
+      "companyLogo": 6
+    },
+    {
+      "hiringCompany": "Epic Solutions Inc.",
+      "date": "2024-06-22",
+      "fullTime": true,
+      "jobTitle": "Cloud Solutions Architect",
+      "country": "France",
+      "companyLogo": 7
+    },
+    {
+      "hiringCompany": "Dynamic Developers Ltd.",
+      "date": "2024-06-21",
+      "fullTime": true,
+      "jobTitle": "Blockchain Developer",
+      "country": "Singapore",
+      "companyLogo": 1
+    },
+    {
+      "hiringCompany": "Innovative Software Solutions",
+      "date": "2024-06-20",
+      "fullTime": true,
+      "jobTitle": "AI/ML Engineer",
+      "country": "India",
+      "companyLogo": 2
+    },
+    {
+      "hiringCompany": "Smart Systems Technologies",
+      "date": "2024-06-19",
+      "fullTime": false,
+      "jobTitle": "Frontend Developer",
+      "country": "South Africa",
+      "companyLogo": 3
+    },
+    {
+      "hiringCompany": "Data Innovators",
+      "date": "2024-06-18",
+      "fullTime": true,
+      "jobTitle": "Data Scientist",
+      "country": "Japan",
+      "companyLogo": 4
+    },
+    {
+      "hiringCompany": "Agile Technologies",
+      "date": "2024-06-17",
+      "fullTime": true,
+      "jobTitle": "Scrum Master",
+      "country": "Spain",
+      "companyLogo": 5
+    },
+    {
+      "hiringCompany": "Cyber Security Solutions",
+      "date": "2024-06-16",
+      "fullTime": false,
+      "jobTitle": "Cyber Security Analyst",
+      "country": "United States",
+      "companyLogo": 6
+    },
+    {
+      "hiringCompany": "Web Design Experts",
+      "date": "2024-06-15",
+      "fullTime": true,
+      "jobTitle": "Web Designer",
+      "country": "United Kingdom",
+      "companyLogo": 7
+    },
+    {
+      "hiringCompany": "Tech Innovators Ltd.",
+      "date": "2024-06-14",
+      "fullTime": true,
+      "jobTitle": "Software Developer",
+      "country": "Canada",
+      "companyLogo": 1
+    },
+    {
+      "hiringCompany": "Mobile App Creators",
+      "date": "2024-06-13",
+      "fullTime": false,
+      "jobTitle": "Mobile App Tester",
+      "country": "Australia",
+      "companyLogo": 2
+    },
+    {
+      "hiringCompany": "Cloud Solutions Ltd.",
+      "date": "2024-06-12",
+      "fullTime": true,
+      "jobTitle": "Cloud Engineer",
+      "country": "Germany",
+      "companyLogo": 3
+    },
+    {
+      "hiringCompany": "AI Innovations",
+      "date": "2024-06-11",
+      "fullTime": true,
+      "jobTitle": "Machine Learning Engineer",
+      "country": "Brazil",
+      "companyLogo": 4
+    },
+    {
+      "hiringCompany": "Tech Titans",
+      "date": "2024-06-10",
+      "fullTime": false,
+      "jobTitle": "System Administrator",
+      "country": "France",
+      "companyLogo": 5
+    },
+    {
+      "hiringCompany": "Digital Solutions Inc.",
+      "date": "2024-06-09",
+      "fullTime": true,
+      "jobTitle": "Software Engineer",
+      "country": "United States",
+      "companyLogo": 6
+    },
+    {
+      "hiringCompany": "Web Development Experts",
+      "date": "2024-06-08",
+      "fullTime": true,
+      "jobTitle": "Web Developer",
+      "country": "Canada",
+      "companyLogo": 7
+    }
+  ]
+  
