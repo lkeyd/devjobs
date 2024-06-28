@@ -8,8 +8,6 @@ const kumbhSans= Kumbh_Sans({
   variable:"--font-kumbha-sans",
 });
 
-
-
 export const metadata = {
   title: "Devjobs",
   description: "Find your dream developer job",

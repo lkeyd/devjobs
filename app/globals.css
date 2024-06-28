@@ -2,4 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.job-card-animation {
+    opacity: 0;
+    animation: fadeInAnimation 0.5s ease forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: You can add a slide-up effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 

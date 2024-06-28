@@ -11,7 +11,6 @@ export default function SearchBar() {
 
   const handleInput = (event, func) => {
     func(event.target.value);
-    console.log(event.target.value);
   };
 
   const toggleFullTimeOnly = () => {
@@ -83,7 +82,7 @@ export default function SearchBar() {
         >
           <Image src="/filter.svg" alt="filter" height={48} width={48}></Image>
         </button>
-        <button className="bg-[#5964df] text-white text-xl rounded-xl px-4 py-2">
+        <button className="bg-[#5964df] text-white text-xl rounded-xl px-4 py-2 hover:scale-[1.03] transition-transform duration-200">
           Search
         </button>
       </div>

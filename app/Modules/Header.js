@@ -12,9 +12,9 @@ export default function Header() {
   return (
     <div className="flex justify-center bg-[#5964df] h-40 w-full rounded-bl-full">
       <div className="flex justify-between w-full max-w-[1080px] mt-10 px-4">
-        <div className={`text-4xl text-white font-bold ${kumbhSans.className}`}>
+        <h1 className={`text-4xl text-white font-bold ${kumbhSans.className}`}>
           devjobs
-        </div>
+        </h1>
         {
           //<div>
           //<ModeSlider />

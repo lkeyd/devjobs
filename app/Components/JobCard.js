@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import "../globals.css";
 
 export default function JobCard(props) {
   const job = props.job;
@@ -16,7 +17,7 @@ export default function JobCard(props) {
   };
 
   return (
-    <a href ="#" className="flex flex-col gap-2 bg-[#1a202e] rounded-xl pl-8 mb-8 w-full shadow-md">
+    <a href ="#" className="flex flex-col gap-2 bg-[#1a202e] rounded-xl pl-8 mb-8 w-full shadow-md job-card-animation">
       <div className="relative w-14 h-14">
         <Image
           src={getImage(job.companyLogo)}
