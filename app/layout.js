@@ -11,7 +11,7 @@ const kumbhSans= Kumbh_Sans({
 
 
 export const metadata = {
-  title: "Devops",
+  title: "Devjobs",
   description: "Find your dream developer job",
 };
 
