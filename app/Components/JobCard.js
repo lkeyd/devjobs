@@ -22,6 +22,8 @@ export default function JobCard(props) {
           src={getImage(job.companyLogo)}
           fill
           className="rounded-xl -mt-8"
+          alt={job.hiringCompany}
+          sizes="20vw"
         ></Image>
       </div>
       <div className="flex flex-col gap-4 -mt-4">

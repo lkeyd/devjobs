@@ -29,7 +29,13 @@ export default function SearchBar() {
   return (
     <div className="flex justify-between items-center w-full h-20 bg-[#1a202e] rounded-xl">
       <div className="flex gap-4 w-full lg:w-full border-0 lg:border-r-2 border-gray-500 border-opacity-30 h-full px-4">
-        <Image src="/search.svg" width={24} height={24} className="hidden lg:flex"></Image>
+        <Image
+          src="/search.svg"
+          alt="search"
+          width={24}
+          height={24}
+          className="hidden lg:block"
+        ></Image>
         <div className="flex items-center w-full">
           <input
             type="text"
@@ -41,7 +47,12 @@ export default function SearchBar() {
         </div>
       </div>
       <div className="hidden lg:flex gap-4 w-full border-r-2 border-gray-500 border-opacity-30 h-full px-4">
-        <Image src="/location.svg" width={24} height={24}></Image>
+        <Image
+          src="/location.svg"
+          alt="location"
+          width={24}
+          height={24}
+        ></Image>
         <div className="flex items-center w-full">
           <input
             type="text"
@@ -70,7 +81,7 @@ export default function SearchBar() {
           onClick={handleFilterClick}
           className="flex lg:hidden items-center w-8 h-8"
         >
-          <Image src="/filter.svg" height={48} width={48}></Image>
+          <Image src="/filter.svg" alt="filter" height={48} width={48}></Image>
         </button>
         <button className="bg-[#5964df] text-white text-xl rounded-xl px-4 py-2">
           Search
